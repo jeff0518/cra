@@ -1,0 +1,33 @@
+.navItem {
+  width: 100%;
+  display: flex;
+
+  .nav__icon {
+    width: 24px;
+    height: 24px;
+  }
+  .nav__title {
+    margin-left: 1rem;
+    color: #44444f;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+.home__icon {
+  content: url('../../icons/home_icon@2x.png');
+  width: 100%;
+  display: block;
+}
+
+.profile__icon {
+  content: url('../../icons/profile_icon@2x.png');
+  width: 100%;
+  display: block;
+}
+
+.setting__icon {
+  content: url('../../icons/setting_icon@2x.png');
+  width: 100%;
+  display: block;
+}
